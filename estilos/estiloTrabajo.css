@@ -11,13 +11,14 @@
     background: grey;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .imagenes img{
     width: 230px;
     height: 230px;
     object-fit: cover;
+    margin: 3px 3px;
 }
 article {
     width: 100%;
