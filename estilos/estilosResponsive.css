@@ -3,9 +3,12 @@
 
 /*el primero no es 550 sino 480px solo por mi pantalla lo uso así El segundo 768px*/
 @media screen and (min-width:525px) {
-.menu-ampliado {
-    display: flex;
-}
-    
-    
+    .menu-ampliado {
+        display: flex;
+    } 
+    nav a {
+        width: 25%;
+    }  
+
+
 }
