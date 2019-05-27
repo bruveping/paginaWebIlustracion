@@ -15,10 +15,9 @@
 }
 
 .imagenes img{
-    width: 150px;
-    height: 150px;
+    width: 230px;
+    height: 230px;
     object-fit: cover;
-
 }
 article {
     width: 100%;
