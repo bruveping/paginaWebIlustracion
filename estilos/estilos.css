@@ -71,7 +71,7 @@ nav a.estas-aqui{
 .menu {
     display: block;
     position: absolute;
-    top: 148px;
+    top: 312px;
     left: 0;
     width: 100%;    
     padding: 0;
@@ -80,16 +80,20 @@ nav a.estas-aqui{
     height: 0;
     overflow: hidden;
     transition: .4s; 
+
 }
 .menu a {
+    display: block;
+    text-decoration: none;
     text-align: center;
     margin: auto;
     width: 100%; 
     color: white;
-    background: rgba(0,0,255,.8);
+    box-sizing: border-box;
     border-bottom: 1px solid white;
-    padding: 20px 0;
+    padding: 10px 30px;
     margin: 0;
+        background: rgba(0,0,255,.8);
 }
 .menu a:hover {
     background: #7200ff;
