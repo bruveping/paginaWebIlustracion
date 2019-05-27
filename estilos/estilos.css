@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant|Coustard&display=swap');
 @import url('estiloTrabajo.css');
-@import url ('estilosResponsive.css');
+@import url('estilosResponsive.css');
+@import url('estilosMenu.css');
 /*
 @import url('https://fonts.googleapis.com/css?
 titulo
@@ -30,94 +31,6 @@ a{
     font-size: .8em;
 }
 
-
-.contenedor {
-    margin-top: 40px;
-    background: grey;
-}
-nav {
-
-}
-.menu-ampliado
-{
-    display: flex;
-    flex-wrap: wrap;
-    transition: .4s;  
-    width: 100%;
-    background: #fff;
-    margin: auto;
-    justify-content: space-between;
-}
-
-nav .menu-ampliado a {
-    display: block;
-    width: 32%;
-    color: white;
-    background: blue;
-    margin: 2px;
-    text-decoration: none;
-    text-align: center;
-    padding: 30px 0;
-    box-sizing: border-box;
-} 
-nav a:hover {
-    background: #7200ff;
-} 
-nav a.estas-aqui{
-    background: red;
-}
-.icon-menu{
-}
-.menu {
-    display: block;
-    position: absolute;
-    top: 312px;
-    left: 0;
-    width: 100%;    
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    height: 0;
-    overflow: hidden;
-    transition: .4s; 
-
-}
-.menu a {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    margin: auto;
-    width: 100%; 
-    color: white;
-    box-sizing: border-box;
-    border-bottom: 1px solid white;
-    padding: 10px 30px;
-    margin: 0;
-        background: rgba(0,0,255,.8);
-}
-.menu a:hover {
-    background: #7200ff;
-}
-
-.menu .estas-aqui{
-    background: red;
-}
-.mostrar {
-    height: 500px;
-}
-.icon-menu {
-    display: block;
-    color: white;
-    border: 1px solid white;
-    border-radius: 3px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    cursor: pointer;
-}
-
-
 .elboton {
     width: 50px;
     height: 50px;
@@ -130,7 +43,6 @@ nav a.estas-aqui{
     align-content: center;
     align-items: center;
     box-sizing: border-box;
-
 }
 .elboton:nth-child(2) {
     margin-top: 10px;
