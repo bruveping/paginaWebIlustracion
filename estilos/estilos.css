@@ -40,11 +40,31 @@ nav {
 }
 .menu-ampliado
 {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     transition: .4s;  
     width: 100%;
-    background: blue;
+    background: #fff;
     margin: auto;
+    justify-content: space-between;
+}
+
+nav .menu-ampliado a {
+    display: block;
+    width: 32%;
+    color: white;
+    background: blue;
+    margin: 2px;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+} 
+nav a:hover {
+    background: #7200ff;
+} 
+nav a.estas-aqui{
+    background: red;
 }
 .icon-menu{
 }
@@ -92,20 +112,7 @@ nav {
     text-align: center;
     cursor: pointer;
 }
-nav a {
-    display: block;
-    width: 100%;
-    color: white;
-    margin: auto;
-    text-decoration: none;
-    text-align: center;
-    padding: 30px;
-    border-left: 1px solid white;
-    border-bottom: 1px solid white;
-} 
-nav a:hover {
-    background: #7200ff;
-} 
+
 
 .elboton {
     width: 50px;
@@ -138,9 +145,7 @@ nav a:hover {
 
 }
 
-.estas-aqui{
-    background: red;
-}
+
 
 .contenedor03 {
     width: 100%;
