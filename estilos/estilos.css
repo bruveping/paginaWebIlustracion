@@ -57,7 +57,7 @@ nav .menu-ampliado a {
     margin: 2px;
     text-decoration: none;
     text-align: center;
-    padding: 30px;
+    padding: 30px 0;
     box-sizing: border-box;
 } 
 nav a:hover {
