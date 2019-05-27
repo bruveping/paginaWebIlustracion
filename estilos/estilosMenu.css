@@ -16,10 +16,11 @@ nav {
 
 .menu-ampliado a {
     display: none;
-    width: 32%;
+    flex-wrap: wrap;
+    width: 19.8%;
     color: white;
     background: blue;
-    margin: 2px;
+    margin: .2px;
     text-decoration: none;
     text-align: center;
     padding: 30px 0;
@@ -32,12 +33,12 @@ nav a:hover {
 background: red;
 }*/
 span {
-        display: block;
-        position: relative;
-        text-align: center;
+    display: block;
+    position: relative;
+    text-align: center;
 }
 .icon-menu {
- text-align: center;
+    text-align: center;
     color: white;
     border: 1px solid white;
     border-radius: 3px;
