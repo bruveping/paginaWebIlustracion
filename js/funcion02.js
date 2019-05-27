@@ -142,12 +142,12 @@ imagen22.addEventListener('click',
                          );
 imagen23.addEventListener('click',
                           function agregaImagen (){    
-    ventana.src = 'img/img23.jpg';
+    ventana.src = 'https://scontent-eze1-1.cdninstagram.com/vp/c0e5c644fd22f839dc2fa1f9004d4182/5D7F7141/t51.2885-15/fr/e15/s1080x1080/57390266_433314613906126_5935371621665409273_n.jpg?_nc_ht=scontent-eze1-1.cdninstagram.com';
 }
                          );
 imagen24.addEventListener('click',
                           function agregaImagen (){    
-    ventana.src = 'img/img24.jpg';
+    ventana.src = 'https://scontent-eze1-1.cdninstagram.com/vp/0557c29591fbd8a577b6d46fcd658362/5D982F33/t51.2885-15/fr/e15/s1080x1080/59138446_2405530002799585_1530161899565903420_n.jpg?_nc_ht=scontent-eze1-1.cdninstagram.com';
 }
                          );
 imagen25.addEventListener('click',
