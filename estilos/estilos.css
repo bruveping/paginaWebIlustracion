@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant|Coustard&display=swap');
+@import url('estiloTrabajo.css');
+/*
+@import url('https://fonts.googleapis.com/css?
+titulo
+font-family: 'Cormorant', serif;
+parrafo
+font-family: 'Coustard', serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Cormorant', serif; 
+
+}
+.titulo h1 a{
+    margin-left: 20px;
+    margin-top: 20;
+    font-size: 1.7em;  
+    text-decoration: none;
+    color: black;
+    font-family: 'Cormorant', serif; 
+}
+
+a{
+    font-family: 'Coustard', serif; 
+    font-size: .8em;
+}
+
+
+.contenedor {
+    margin-top: 40px;
+    background: grey;
+}
+nav {
+    width: 90%;
+    background: blue;
+    display: flex;
+    margin: auto;
+
+}
+nav a {
+    display: block;
+    width: 25%;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+    border-left: 1px solid white;
+} 
+nav a:hover {
+    background: #7200ff;
+} 
+
+.estas-aqui{
+    background: red;
+}
+
+
+.elboton {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    background: black;
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.elboton:nth-child(2) {
+margin-top: 10px;
+}
+.elboton p {
+    display: block;
+    margin: auto auto;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.elboton:hover {
+    cursor: pointer;
+    background: #409f9c;
+
+}
+
+.contenedor03 {
+    width: 100%;
+    background: #cfcfcf; 
+}
+
+.imagen {
+    margin: auto;
+    background: blue;
+    width: 90%;
+}
+.imagen img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
